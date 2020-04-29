@@ -74,7 +74,8 @@ function populateChart() {
             backgroundColor: "#6666ff",
             data
         }]
-    }
+    },
+    
   });
 }
 

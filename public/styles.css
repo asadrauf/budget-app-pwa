@@ -49,3 +49,53 @@ tr:nth-child(even) {
   width: 90%;
   margin: 0 auto;
 }
+
+#add-btn {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+#add-btn:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+#add-btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+#sub-btn {
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:linear-gradient(to bottom, #f24537 5%, #c62d1f 100%);
+	background-color:#f24537;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:7px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+#sub-btn:hover {
+  background:linear-gradient(to bottom, #c62d1f 5%, #f24537 100%);
+	background-color:#c62d1f;
+}
+#sub-btn:active {
+	position:relative;
+	top:1px;
+}
