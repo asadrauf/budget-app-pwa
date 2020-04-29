@@ -1,6 +1,7 @@
 const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
+const mongojs = require("mongojs");
 const compression = require("compression");
 
 const PORT = 3003;
@@ -15,7 +16,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect(process.env.MONGODB_URI || "mmongodb://services:services12@ds123698.mlab.com:23698/heroku_5gshhwh7", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://sworker:sworker12@ds019648.mlab.com:19648/heroku_1cbcz0fd", {
   useNewUrlParser: true,
   useFindAndModify: false,
   useUnifiedTopology: true
